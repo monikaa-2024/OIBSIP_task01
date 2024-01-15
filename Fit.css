@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0e9e9;
+    
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #0b0b0b;
+    padding: 20px;
+    color: #141313;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    color: #faf6f6;
+    text-decoration: none;
+  }
+  
+  /* Hero section styles */
+  .hero {
+    background-image: url("C:\Users\monik\OneDrive\Documents\young-bodybuilder-training-in-gym.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .hero-content {
+    text-align: center;
+    color: #fff;
+  }
+  
+  .hero-content h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+  
+  .hero-content p {
+    font-size: 20px;
+    margin-bottom: 30px;
+  }
+  
+  .cta-button {
+    background-color: #ff4f5a;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .cta-button:hover {
+    background-color: #e63d47;
+  }
+  
+  /* Features section styles */
+  .features {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  
+  .feature {
+    text-align: center;
+    margin: 0 20px;
+  }
+  
+  .feature img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+  }
+  
+  
+  .feature h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .feature p {
+    font-size: 16px;
+  }
+  
+  /* Footer styles */
+  footer {
+    background-color: #333;
+    padding: 20px;
+    color: #db4545;
+    text-align: center;
+  }
+  
+  footer p {
+    font-size: 14px;
+  }
+  
